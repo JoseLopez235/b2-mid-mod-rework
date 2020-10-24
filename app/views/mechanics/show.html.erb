@@ -4,7 +4,7 @@
 
 <section id="current-rides">
   <h3>Current Rides They're Working On:</h3>
-  <% @mechanic.rides.each do |ride| %>
+  <% @mechanic.alphabetical_rides.each do |ride| %>
     <%= ride.name %><br>
   <% end %>
 </section>
